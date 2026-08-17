@@ -9,7 +9,8 @@
 2. cdで1.で作ったフォルダに移動
 3. `code .`でVScodeで開く
 4. 開いたらターミナルで`npm install`する(node_modulesがなければ毎回する(node_modulesはgithubには上げない！))
-5. `npm run dev`で立ち上げ、残しておく(コマンド打つときは別のターミナルを開く)
+5. `npm run dev`で立ち上げ、残しておく(コマンド打つときは別のターミナルを開く)。`npm run dev`をしたらURLが出てくるので、そのURLをコピペして新しいウィンドウで開くと実際の画面動作などが確認できる 
+
 
 # クリーンアップ
 1. srcフォルダのassetsフォルダとindex.cssを削除
@@ -24,4 +25,6 @@
 3.  `git status`でaddされているか確認
 4. `git commit -m "<コメント>"`でコミットできる
 5. `git status`でコミットされているか確認
-6. 
+6. `git push origin main`でorigin(リポジトリ(github上の情報を保存しているところ))にmainブラントをpushしているということ 
+
+
